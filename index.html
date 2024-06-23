@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+        #banner{
+            font-family: "Playwrite NO", cursive;
+        }
+         #logoname{
+            font-family: "Lilita One", sans-serif;
+            font-weight: bolder;
+            font-style: normal;
+            /* font-size: 0.7rem; */
+            /* transform: translateX(-0.9rem);
+            transform: translateY(0.3rem); */
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="overflow-x-hidden">
+    <!-- Navigation Bar -->
+    <nav class="py-2 space-y-3 flex flex-col justify-center sm:flex-row sm:justify-between sm:px-16 items-center bg-gradient-to-r from-cyan-400 to-cyan-400">
+        <div class="left flex space-x-1 sm:space-x-5">
+            <div class="logocontainer flex">
+                <div>
+                    <img class="w-6 sm:w-14 sm:translate-y-2" src="./Images/icons8-shopify-an-e-commerce-platform-that-helps-to-sell-online-48.png" alt="">
+                </div>
+                <div id="logoname" class="translate-y-1 text-[0.9rem] sm:text-[2.7rem]">Shopify</div>
+            </div>
+            <div class="group">
+                <div class="text-[0.6rem] sm:text-[1.5rem] sm:translate-y-4 translate-y-[0.3rem]">Solutions</div>
+                <div class="h-1 group-hover:bg-black hidden"></div>
+            </div>    
+            <div class="group">
+                <div class="text-[0.6rem] translate-y-[0.3rem] sm:text-[1.5rem] sm:translate-y-4">Pricing</div>
+                <div class="h-1 group-hover:bg-black hidden"></div>
+            </div>    
+            <div class="group">
+                <div class="text-[0.6rem] translate-y-[0.3rem] sm:text-[1.5rem] sm:translate-y-4">Resources</div>
+                <div class="h-1 group-hover:bg-black hidden"></div>
+            </div>    
+            <div class="group">
+                <div class="text-[0.6rem] translate-y-[0.3rem] sm:text-[1.5rem] sm:translate-y-4">What's new</div>
+                <div class="h-1 group-hover:bg-black hidden"></div>
+            </div>    
+        </div>
+        <div class="right flex space-x-2 sm:space-x-4">
+            <div>
+                <a href="#" class="sm:text-[1.5rem] sm:translate-y-6">Log In</a>
+            </div>
+            <div>
+                <Button class="bg-black rounded-3xl shadow-2xl text-white font-semibold px-5 sm:px-6 sm:py-3 py-1">Start free trial</Button>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <main class="bg-gradient-to-b w-full h-max from-cyan-400 flex flex-col sm:flex-row justify-center items-center py-10 sm:p-20 ">
+        <div class="left mx-auto px-10 flex flex-col justify-center items-center space-y-2 sm:justify-start sm:items-start sm:space-y-6">
+            <div class="font-bold text-4xl sm:text-[3.5rem]">Start your Business</div>
+            <div class="font-medium sm:text-[2rem]">Get your brand going with tools to build,launch,and grow.</div>
+            <div>
+                <Button class="bg-black rounded-3xl shadow-2xl sm:px-10 sm:py-4 text-white font-semibold px-5 py-1">Start free trial</Button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="./Images/hero-en-IN-@artdirection-small-cc1ab4b42fe6aa57570e5d0b352b208f0478aa44d190d26e5254a60ef58e6593.png" alt="">
+        </div>
+    </main>
+    <!-- Section1 -->
+    <div class="section1 mx-auto flex flex-col justify-start px-5 sm:p-20 ">
+        <div class="text-slate-500 font-medium text-[0.9rem] sm:text-[1.5rem]">ONLINE STORE BUILDER</div>
+        <div class="text-[2rem] font-semibold sm:text-[3.5rem]">Build your store</div>
+        <div class="font-medium text-[1.2rem] sm:text-[2rem] sm:font-light">Bring your idea to life with the tools you need to start selling</div>
+    </div>
+    <!-- Section2 -->
+    <div class="section2 flex flex-col justify-center my-12 space-y-5 sm:grid sm:grid-cols-3 px-5 sm:px-7">
+        <div class="flex flex-col justify-center px-5 space-y-2">
+            <div class="h-1 bg-black"></div>
+            <div class="font-bold sm:text-[1.8rem]">Build an online storefront</div>
+            <div class="font-light sm:text-[1.3rem] sm:font-light">Personalize your design with drag-and-drop tools that make your online store shine</div>
+            <div>
+                <a href="#" class=" underline sm:text-[1.1rem]">Online Store Builder</a>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center px-5 space-y-2 sm:space-y-6">
+            <div class="h-1 bg-black"></div>
+            <div class="font-bold sm:text-[1.8rem]">Choose a store theme</div>
+            <div class="font-light sm:text-[1.3rem]">Browse a wide range of freeand paid themes</div>
+            <div>
+                <a href="#" class=" underline sm:text-[1.1rem]">Theme Store</a>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center px-5 space-y-2 sm:space-y-3.5">
+            <div class="h-1 bg-black"></div>
+            <div class="font-bold sm:text-[1.8rem]">Level Up with apps</div>
+            <div class="font-light sm:text-[1.3rem]">Add more features to your store with apps from trusted Shopify partners</div>
+            <div>
+                <a href="#" class=" underline sm:text-[1.1rem]">Shopify App Store</a>
+            </div>
+        </div>
+    </div>
+    <!-- Section3 -->
+     <div class="section3 bg-slate-900 text-white py-12 px-5 flex flex-col space-y-4 sm:p-32">
+        <div class="sm:text-[3rem]">"Building a website isn't enough,you really have to promote it."</div>
+        <div class="text-[0.6rem] sm:text-[1.8rem]">Julie-Province Aponthecary</div>
+     </div>
+     <!-- Section4 -->
+      <div class="section4 sm:my-20 hover:bg-gradient-to-b from-cyan-400 flex flex-col justify-center items-center p-5 space-y-2 hover:transition-all hover:duration-500">
+        <div class="text-slate-600 font-semibold sm:text-[1.5rem]">BRANDING TOOLS</div>
+        <div class="font-bold text-[2rem] sm:text-[3.5rem]">Build your brand</div>
+        <div class="text-black sm:text-[1.6rem]">Craft the look and feel of your brand and help customers connect with your business</div>
+      </div>
+      <!-- section5 -->
+       <div class="section5 flex flex-col sm:flex-row sm:space-y-5 sm:px-20 sm:justify-center sm:items-center">
+        <div class="left p-5 rounded-2xl">
+            <img src="./Images/one-small-6f938af21afb8299c01da30683b29a4ae0afc2da7680cca6c93d056787c67fdc.webp" alt="">
+        </div>
+        <div class="right flex flex-col space-y-8 p-5">
+            <div class="space-y-2 sm:space-y-4">
+                <div class="font-bold sm:text-[1.8rem]">Generate a business name</div>
+                <div class="font-light sm:text-[1.4rem]">Find a name that fits your personality and business idea.</div>
+                <div>
+                    <a class="underline sm:text-[1.3rem]" href="">Business Name Generator</a>
+                </div>
+            </div>
+            <div  class="space-y-2">
+                <div class="font-bold sm:text-[1.8rem]">Create a free logo</div>
+                <div class="font-light sm:text-[1.4rem]">Stand out from the competition and make your business unforgettable</div>
+                <div class="underline sm:text-[1.3rem]">Logo Maker</div>
+            </div>
+        </div>
+       </div>
+      <!-- section5 -->
+       <div class="section5 flex flex-col sm:flex-row-reverse sm:px-20 sm:mt-8 sm:items-center  sm:justify-center">
+        <div class="left p-5 rounded-2xl">
+            <img src="./Images/a221369371a983082bba4edf0873e450.webp" alt="">
+        </div>
+        <div class="right flex flex-col space-y-8 p-5">
+            <div class="space-y-2">
+                <div class="font-bold sm:text-[1.8rem]">Get a custom web domain</div>
+                <div class="font-light sm:text-[1.4rem]">Establish your business and let customers find your store online</div>
+                <div>
+                    <a class="underline sm:text-[1.3rem]" href="">Domain Name Generator</a>
+                </div>
+            </div>
+            <div  class="space-y-2">
+                <div class="font-bold sm:text-[1.8rem]">Download free stock photos</div>
+                <div class="font-light sm:text-[1.4rem]">Personalize your website with free, high resolution images from Burst.</div>
+                <div class="underline sm:text-[1.3rem]">Explore Burst</div>
+            </div>
+        </div>
+       </div>
+       <!-- section6 -->
+        <div class="section6 flex flex-col px-5 py-16 space-y-8 bg-slate-200 sm:w-[100vw] sm:mx-auto">
+            <div class=" flex flex-col justify-center items-center">
+                <div class="font-semibold text-green-800 sm:text-[1.5rem]">PRODUCT SOURCING</div>
+                <div class="text-[2rem] font-bold sm:text-[3rem]">Find products to sell</div>
+                <div class="text-[1.2rem] font-light sm:text-[1.8rem] sm:font-semibold">Stock your store with products from trusted dropshipping services</div>
+            </div>
+            <div class="flex flex-col space-y-6 sm:flex-row sm:px-20 sm:space-x-20 sm:mb-48">
+                <div class="left">
+                    <img src="./Images/jumpstart.webp" alt="">
+                </div>
+                <div class="right flex flex-col space-y-3 sm:justify-center">
+                    <div class="font-bold text-[2rem] sm:sm:text-[2.7rem]">Jumpstart your dropshipping business here</div>
+                <div class="font-light sm:text-[1.3rem]">Source and sell in-demend products without the hassle of managing inventory,packaging. or shipping.</div>
+                <div class="underline font-semibold sm:text-[1.4rem]">Discover dropshipping today</div>
+                </div>
+            </div>
+        </div>
+        <!-- section7 -->
+         <div id="banner" class="section7 flex flex-col  sm:bg-gradient-to-r from-cyan-300 to-lime-300 sm:bg-cover sm:bg-center sm:rounded-xl sm:my-24 sm:p-44 sm:items-start sm:mx-20 space-y-6 justify-center items-center p-6 ">
+            <div class="text-black font-bold text-[1.6rem] sm:text-white sm:text-[2.7rem]">Every tool you need to power your business.</div>
+            <div>
+                <button class="border rounded-3xl border-lime-500 px-5 py-2 sm:text-white">Explore all products</button>
+            </div>
+         </div>
+        <!-- <div class="section7 mt-24 sm:mx-11 sm:my-12 sm:absolute relative sm:bg-[url(Images\background.webp)] object-cover flex flex-col justify-center sm:items-start items-center px-6 space-y-8 ">
+            <img src="./Images/background.webp" alt="" class="absolute w-[100vw] h-[50vh]">
+            <div class="text-white text-[2rem] absolute font-bold px-6 -translate-y-20">Every tool you need to power your business</div>
+            <div><button class="text-white absolute border rounded-3xl px-6 py-3 font-semibold -translate-x-16">Explore all products</button></div>
+        </div> -->
+        <!-- section8 -->
+         <div class="heading  font-bold text-[2rem] sm:text-[3rem] bg-slate-200 p-4 sm:bg-white">Keep learning with free resources</div>
+         <!-- section9 -->
+         <div class="  flex flex-col space-y-3  m-4 sm:grid sm:grid-cols-4 sm:space-x-8 sm:p-6">
+            <div class="bg-slate-200 hover:scale-[1.02] sm:rounded-lg  hover:shadow-2xl hover:rounded-lg transition-all duration-300  flex flex-col justify-center items-start p-6  space-y-3 ">
+                <div>
+                    <img src="./svg/online-courses-acb02e0399d7be0912498245aed8843910a5055bd34ff774b7962dd0723ee8e9.svg" alt="">
+                </div>
+                <div class="text-[1.5rem] font-bold">
+                    Online Courses
+                </div>
+                <div class="text-[1.2rem] font-light">
+                    Find out how to build and grow a profitable business. 
+                </div>
+                <div class="text-[1.2rem] underline">
+                    Learn online
+                </div>
+            </div>
+            <div class="flex flex-col bg-slate-200 justify-center sm:rounded-lg items-start p-6 space-y-3  hover:scale-[1.02]  hover:shadow-2xl hover:rounded-lg transition-all duration-300">
+                <div>
+                    <img src="./svg/podcasts-8e097ee31c40f6902763a96400cbef8872686fb3811d54dd59ddcaf8aef04e6a.svg" alt="">
+                </div>
+                <div class="text-[1.5rem] font-bold">
+                    Podcasts
+                </div>
+                <div class="text-[1.2rem] font-light">
+                    Tune in for actionable advice and business tips. 
+                </div>
+                <div class="text-[1.2rem] underline">
+                    Listen in
+                </div>
+            </div>
+            <div class="flex flex-col bg-slate-200 justify-center items-start sm:rounded-lg p-6 space-y-3 hover:scale-[1.02]  hover:shadow-2xl hover:rounded-lg transition-all duration-300">
+                <div>
+                    <img src="./svg/blog-03af7575d39ac059c19ea19185e9f793d1415783216b004b06daba0747038694.svg" alt="">
+                </div>
+                <div class="text-[1.5rem] font-bold">
+                    Blog
+                </div>
+                <div class="text-[1.2rem] font-light">
+                    Explore a collection of resources about starting your own business.
+                </div>
+                <div class="text-[1.2rem] underline">
+                    Browse our blog
+                </div>
+            </div>
+            <div class="flex flex-col justify-center bg-slate-200 items-start p-6 sm:rounded-lg space-y-3 hover:scale-[1.02]  hover:shadow-2xl hover:rounded-lg transition-all duration-300">
+                <div>
+                    <img src="./svg/guide-63c4994012b258879aa7de622589ca49c6ceceb4bac2776db1e4b202b0ac2ec5.svg" alt="">
+                </div>
+                <div class="text-[1.5rem] font-bold">
+                    Guides
+                </div>
+                <div class="text-[1.2rem] font-light">
+                    Learn how to start a small business with a variety of guides. 
+                </div>
+                <div class="text-[1.2rem] underline">
+                    Explore guides
+                </div>
+            </div>
+         </div> 
+         <!-- section10 -->
+          <div class="section10 sm:p-44 sm:justify-center sm:space-y-5 sm:items-center p-5 flex flex-col space-y-4 justify-center items-center bg-gradient-to-r from-cyan-400 to-green-300">
+            <div class="text-[2.4rem] sm:text-[3.5rem] font-bold">
+                Start selling with Shopify today
+            </div>
+            <div class="font-light text-[1.2rem] sm:text-[1.8rem]">
+                Try Shopify for free, and explore all the tools and services you need to start, run, and grow your business
+            </div>
+            <div>
+                <div>
+                    <Button class="bg-black rounded-3xl shadow-2xl sm:px-10 sm:py-3 text-white font-semibold px-5 py-2">Start free trial</Button>
+                </div>
+            </div>
+            <div class="w-[90vw] sm:w-max sm:text-[1.5rem]  bg-cyan-300">
+                Get 3 days free then 1 month for &#8377;20
+            </div>
+          </div>
+          <div class="footer sm:py-36 sm:px-20 sm:flex-row sm:justify-between flex flex-wrap flex-col  bg-black">
+            <div class="flex flex-col text-white space-y-5 p-8">
+                <div class="font-bold text-[2rem]">Shopify</div>
+                <div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">About</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Investors</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Partners</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col text-white space-y-5  p-8">
+                <div class="font-bold text-[2rem]">Support</div>
+                <div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Merchant Support</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Help Center</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Hire a Partner</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col text-white space-y-5  p-8">
+                <div class="font-bold text-[2rem]">Developers</div>
+                <div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Shopify.dev</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">API documentation</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Dev Degree</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col text-white space-y-5  p-8">
+                <div class="font-bold text-[2rem]">Products</div>
+                <div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Shopify Plus</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Linkpop</a>
+                    </div>
+                    <div>
+                        <a href="#" class="hover:underline text-[1.5rem]">Shopify for Enterprise</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <div>
+          <div class="h-1 bg-white"></div>
+        </div>
+        <div class="flex justify-evenly sm:bg-gradient-to-r from-cyan-400  to-lime-200  mx-auto px-4 py-4 ">
+            <div class="w-7">
+                <a href="http://www.facebook.com">
+                    <img src="./icons/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="w-7">
+                <a href="http://www.instagram.com">
+                    <img src="./icons/instagram.png" alt="">
+                </a>
+            </div>
+            <div class="w-7">
+                <a href="http://www.linkedin.com">
+                    <img src="./icons/linkedin.png" alt="">
+                </a>
+            </div>
+            <div class="w-7">
+                <a href="http://www.pinterest.com">
+                    <img src="./icons/pinterest.png" alt="">
+                </a>
+            </div>
+            <div class="w-7">
+                <a href="http://www.x.com">
+                    <img src="./icons/twitter.png" alt="">
+                </a>
+            </div>
+            <div class="w-7">
+                <a href="http://www.youtube.com">
+                    <img src="./icons/youtube.png" alt="">
+                </a>
+            </div>
+        </div>
+</div>
+</body>
+</html>
